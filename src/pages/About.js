@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
     return (
-        <div className="about-page-container">
+        <div className="about-page-container pb-5">
             <div className="about-page-title my-4 text-center">
                 <h1>About</h1>
             </div>
