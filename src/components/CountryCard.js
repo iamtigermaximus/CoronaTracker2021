@@ -4,7 +4,7 @@ const CountryCard = (props) => {
     return (
         <div>
             <div className="card bg-light text-dark mb-5" key={props.id}>
-                                <div className="country-image">
+                                <div className="country-image p-5">
                                     <img className="card-img-top" src={props.flag} alt="country-flag"/>
                                 </div>
                                 <div className="card-body text-center">

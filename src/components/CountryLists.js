@@ -42,7 +42,7 @@ const CountryLists = () => {
         </div>
         <div className="country-lists-container">
             <div className="container">
-                <div className="row row-cols-1 row-cols-md-4 g-4 ">
+                <div className="row row-cols-1 row-cols-md-6 g-4 ">
                     {filteredCountries.map(country=>(
                         <div className="col">
                             <CountryCard
