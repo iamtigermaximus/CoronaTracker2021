@@ -15,14 +15,12 @@ const TravelAdvisory = () => {
       .get('https://www.travel-advisory.info/api?countrycode')
       .then((response) => {
         setAdvisories(response.data.data)
-        console.log(response.data.data)
       })
       .catch((error) => {
         console.log(error)
       })
   }, [])
   const advisoriesArray = Object.values(advisories)
-  console.log(advisoriesArray)
 
   const filteredAdvisories = advisoriesArray.filter((c) => {
     return c.name.toLowerCase().includes(searchCountry.toLowerCase())

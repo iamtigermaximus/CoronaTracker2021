@@ -9,7 +9,6 @@ const WorldCases = () => {
       .get('https://disease.sh/v2/all')
       .then((response) => {
         setLatest(response.data)
-        console.log(response.data)
       })
       .catch((error) => {
         console.log(error)

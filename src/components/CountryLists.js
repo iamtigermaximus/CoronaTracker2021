@@ -16,7 +16,6 @@ const CountryLists = () => {
       .get('https://disease.sh/v2/countries')
       .then((response) => {
         setCountries(response.data)
-        console.log(response.data)
       })
       .catch((error) => {
         console.log(error)
