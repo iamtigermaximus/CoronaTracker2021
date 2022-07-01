@@ -1,48 +1,58 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-body{
-  font-family: 'NomaRegular',arial,helvetica,sans-serif;
+
+body {
+  font-family: 'NomaRegular', arial, helvetica, sans-serif;
   position: relative;
   min-height: 100vh;
 }
+
 .navbar-brand-link {
   text-decoration: none;
   color: azure;
   font-size: larger;
   font-weight: 600;
 }
-.navbar-brand-link:hover{
+
+.navbar-brand-link:hover {
   color: red;
 }
-.home-page-container{
+
+.home-page-container {
   max-height: 100%;
   overflow-x: hidden;
 }
-.card-img-top{
+
+.card-img-top {
   width: 100%;
   height: 15vh;
   object-fit: fill;
 }
+
 .country-lists-container {
   background-color: whitesmoke;
 }
-.adv{
+
+.adv {
   color: black;
   font-size: larger;
 }
-.page-footer-container{
+
+.page-footer-container {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
-.footer{
+
+.footer {
   color: black;
-  font-size:small;
+  font-size: small;
 }
-.about-info{
+
+.about-info {
   padding-left: 5rem;
   padding-right: 5rem;
   font-size: larger;
